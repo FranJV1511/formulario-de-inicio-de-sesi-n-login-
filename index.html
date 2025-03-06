@@ -5,29 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
     <div class="container">
        
     <div class="login-container">
-        <h2>Login</h2>
+        <h2 class="login">Login</h2>
         <form action="login.php" method="POST">
-            <label for="email">Email:</label>
-            <input type="text" id="username" name="username" required placeholder="Ingrese su email">
+           
+            <input type="text" id="username" name="username" required 
+            placeholder="Ingrese su email">
             
-            <label for="password">Contraseña:</label>
+            
             <input type="password" id="password" name="password" required placeholder="Ingrese su contraseña">
              <div class="forgot-password">
                 <a href="#">¿Olvidó su clave?</a>
             </div>
             <button type="submit">Ingresar</button>
-           
+            <p class="registrarse">¿Aun no tienes cuenta?<a href="#">Regístrate ahora</a>
+
+            </p>
         </form>
     </div> 
     <div class="image-container">
         <img src="image.jpg" alt="imagen de login">
+        <h2 class="frase">Aprendemos a servir</h2>
+        <h3 class="frasse">vamos a conectarnos</h3>
     </div>
+    
 </div>
 </body>
 </html>
